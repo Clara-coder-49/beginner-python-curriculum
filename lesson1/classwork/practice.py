@@ -1,8 +1,7 @@
 # Problem 1
 # Create a variable for your favorite number and print it.
 
-var a=7
-print(a)
+
 
 # Problem 2
 # Create a variable for your height in meters and print it.
