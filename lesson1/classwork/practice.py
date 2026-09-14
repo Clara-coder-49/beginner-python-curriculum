@@ -29,4 +29,4 @@ print(last_name)
 # Print them on the same line in a full sentence.
 age = 10
 favorite_color = "blue"
-print("My name is", first_name, "I am", age, "my favorite color is", favorite_color, ".")
+print(f"My name is {first_name}, I am {age} years old, my favorite color is {favorite_color}.")
