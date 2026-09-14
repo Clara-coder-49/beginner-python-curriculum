@@ -13,20 +13,20 @@ print(Clara_h)
 # Problem 3
 # Create a variable for your favorite animal and print it in a full sentence.
 
-animal = wolf
+animal = "wolf"
 print(f"My favorite animal is the {animal}.")
 
 # Problem 4
 # Create two variables: one for your first name and one for your last name.
 # Print them on 2 separate lines.
 
-first_name = Clara
-last_name = Harrison
+first_name = "Clara"
+last_name = "Harrison"
 print(first_name)
 print(last_name)
 # Problem 5
 # Create 3 variables: your first name, your age, and your favorite color.
 # Print them on the same line in a full sentence.
 age = 10
-favorite_color = blue
+favorite_color = "blue"
 print("My name is", first_name, "I am", age, "my favorite color is", favorite_color, ".")
