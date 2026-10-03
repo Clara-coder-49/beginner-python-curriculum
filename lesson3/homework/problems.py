@@ -15,8 +15,8 @@ else:
 # If they brought both, print "You're fully ready!"
 # If they brought neither, print "You're not ready."
 
-lunch = (input("did you bring lunch?" (yes/no) ))
-water = (input("did you bring  water?" (yes/no) ))
+lunch = (input("did you bring lunch? (yes/no)" ))
+water = (input("did you bring water? (yes/no)" ))
 if lunch and water = yes:
     print("you are completely ready!")
 elif lunch or water = yes:
