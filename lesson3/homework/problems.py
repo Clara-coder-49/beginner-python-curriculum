@@ -3,12 +3,12 @@
 # If BOTH scores are at least 50, print "You passed both!"
 # Otherwise, print "You failed at least one."
 
-score_1 = int(input("What score did you get on your English test?"))
-score_2 = int(input("what score did you get on your math test?"))
-if score_1 and score_2 >= 50:
-    print("You passed!!!")
+score_1 = int(input("What score did you get on your English test? "))
+score_2 = int(input("what score did you get on your math test? "))
+if score_1 >= 50 and score_2 >= 50:
+    print("You passed both!!! ")
 else:
-    print("you failed")
+    print("you failed at least one. ")
 # Problem 2
 # Ask user if they brought lunch and water (yes/no).
 # If they brought lunch OR water, print "You're somewhat ready."
@@ -17,11 +17,11 @@ else:
 
 lunch = (input("did you bring lunch? (yes/no)" ))
 water = (input("did you bring water? (yes/no)" ))
-if lunch and water = yes:
+if lunch and water == "yes":
     print("you are completely ready!")
-elif lunch or water = yes:
+elif lunch or water == "yes":
     print("you are somewhat ready.")
-elif lunch and water = no:
+elif lunch and water == "no":
     print("you are not ready")
 
 # Problem 3
@@ -30,7 +30,7 @@ elif lunch and water = no:
 # Otherwise, print "In range."
 
 number = int(input("enter a number"))
-if number < 10 not 0:
+if number < 10 and not 0:
     print("out of range")
 else:
     print("in range")
