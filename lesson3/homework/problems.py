@@ -17,19 +17,20 @@ else:
 
 lunch = (input("did you bring lunch? (yes/no)" ))
 water = (input("did you bring water? (yes/no)" ))
-if lunch and water == "yes":
+if lunch == "yes" and water == "yes":
     print("you are completely ready!")
-elif lunch or water == "yes":
+elif lunch == "no" and water == "no":
+    print("you are not ready.")
+else:
     print("you are somewhat ready.")
-elif lunch and water == "no":
-    print("you are not ready")
 
 # Problem 3
 # Ask user to enter a number.
 # If the number is NOT between 1 and 10 (inclusive), print "Out of range."
 # Otherwise, print "In range."
 
-number = int(input("enter a number"))
+number = int(input("enter a whole number: "
+""))
 if number < 10 and not 0:
     print("out of range")
 else:
@@ -44,7 +45,7 @@ else:
 #   60 to 69: "D"
 #   below 60: "F"
 
-test = int(input("enter test score 0-100"))
+test = int(input("enter test score 0-100 "))
 if test >= 90:
     print("grade = A")
 elif test <= 89 and test >= 80:
@@ -61,9 +62,10 @@ else:
 # If one is divisible by 5 AND the other is NOT divisible by 2, print "Interesting pair!"
 # Otherwise, print "Plain pair."
 
-A = int(input("enter a number"))
-B = int(input("enter another number"))
-if A / 5 and B / 2:
+A = int(input("enter a number: "))
+B = int(input("enter another number: "))
+if A % 5 == 0 and B % 2 != 0:
     print("intresting pair")
 else:
     print("plain pair")
+print("THE END!:)")
